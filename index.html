@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Tailwind Starter Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container relative">
+        <nav class="container pt-5 navbar navbar-expand-md text-white" style="left: 0">
+            <a href="/" class="navbar-brand">
+                <div class="text-white" style="font-weight: bold; font-size: 2.5rem;">
+                    <img src="img/logo.png" alt="" style="width: 20rem">
+                </div>
+            </a>
+
+            <div class="hamburger-menu block md:hidden">
+                <div class="bar bar-white"></div>
+            </div>
+
+            <div class="mobile-nav hide">
+                <ul class="container">
+                    <li class="nav-item pt-24 py-8">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item py-8">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-hover">Property</a>
+                    </li>
+                    <div class="pt-8">
+                        <a href="#" class="btn btn-outline-light">
+                            Contact
+                        </a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav align-items-center ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-link-hover active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link nav-link-hover">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn nav-link nav-link-hover">Properties
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <ul class="dropdown-content">
+                            <a href="/featured.html" class="nav-link nav-link-hover">Featured</a>
+                            <a href="/sold.html" class="nav-link nav-link-hover">Sold</a>
+                            <a href="/mls.html" class="nav-link nav-link-hover">MLS</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <button class="modalBtn btn btn-primary">Apply now</button> -->
+                        <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <header>
+        <div class="mx-auto flex items-center justify-center bg-cover bg-no-repeat"
+            style="height: 90vh; background-image: url(public/img/hero.jpg)">
+            <div class="container md:w-2/3 lg:w-1/3">
+                <div class="line inline-block"></div>
+                <h3 class="heading-tertiary inline-block pl-3">
+                    Since 20XX.
+                </h3>
+                <h1 class="heading-primary">
+                    Lorem ipsum dolor amet,
+                    <br><span style="color:#D2C787">
+                        consectetur adipisicing elit.
+                    </span>
+                </h1>
+            </div>
+        
+        </div>
+        <section class="container mx-auto flex flex-wrap redirect">
+            <a href="buy.html" class="w-full md:w-1/3 py-2 md:py-8 md:px-4">
+                <div class="card">
+                    <div class="line"></div>
+                    <h3 class="heading-tertiary pt-8">
+                        Looking to buy?
+                    </h3>
+                    <p>
+                        browse the entire real estate database.
+                    </p>
+                </div>
+            </a>
+            <a href="#" class="w-full md:w-1/3 py-2 md:py-8 md:px-4">
+                <div class="card">
+                    <div class="line"></div>
+                    <h3 class="heading-tertiary pt-8">
+                        Looking to sell?
+                    </h3>
+                    <p>
+                        Find out what your home is worth.
+                    </p>
+                </div>
+            </a>
+            <a href="#" class="w-full md:w-1/3 py-2 md:py-8 md:px-4">
+                <div class="card">
+                    <div class="line"></div>
+                    <h3 class="heading-tertiary pt-8">
+                        Looking for advice?
+                    </h3>
+                    <p>
+                        Have questions? Set up a meeting.
+                    </p>
+                </div>
+            </a>
+        </section>
+    </header>
+    <main>
+        <section class="container mx-auto flex flex-wrap py-16 md:py-24">
+            <div class="w-full md:w-1/2">
+                <div class="line inline-block"></div>
+                <h3 class="heading-tertiary inline-block pl-3">
+                    What you will find here
+                </h3>
+                <h2 class="heading-secondary">
+                    Advice on how to choose your perfect house.
+                </h2>
+            </div>
+            <div class="w-full md:w-1/2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi sapiente autem, modi temporibus
+                    accusantium earum fugit officiis commodi placeat perferendis debitis dicta illo. Est recusandae
+                    repudiandae libero reprehenderit perferendis voluptatum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, unde. Nisi voluptates
+                    consectetur explicabo maxime, exercitationem quod animi eligendi fuga! Excepturi, est? Enim expedita
+                    quaerat ipsa praesentium, quidem repellendus eum!
+                </p>
+            </div>
+        </section>
+        <section class="container mx-auto py-16 md:py-24">
+            <div class="text-center">
+                <div class="line inline-block"></div>
+                <h3 class="heading-tertiary inline-block pl-3">
+                    How do I find the perfect realtor for me?
+                </h3>
+                <h2 class="heading-secondary pb-8 md:pb-16">
+                    Traits of a good realtor.
+                </h2>
+            </div>
+
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-1/3 md:px-4">
+                    <div class="feature px-16 py-16 md:py-24 md:px-24">
+                        <h3 class="heading-tertiary">
+                            <span>01. </span>Values.
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusantium obcaecati ullam
+                            at sapiente enim nisi omnis odit, esse fugit? Deleniti temporibus necessitatibus enim.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/3 md:px-4">
+                    <div class="feature px-16 py-16 md:py-24 md:px-24">
+                        <h3 class="heading-tertiary">
+                            <span>02. </span>Values.
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid maiores qui tempora illum.
+                            Voluptates voluptatem at doloremque placeat facere, sed tempore id voluptas inventore cum?
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/3 md:px-4">
+                    <div class="feature px-16 py-16 md:py-24 md:px-24">
+                        <h3 class="heading-tertiary">
+                            <span>03. </span>Values.
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi non fuga incidunt doloribus
+                            vero illo nulla laboriosam, repellendus odit! Perferendis ipsa eius saepe doloremque minus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto py-16 md:py-24">
+            <div class="how-it-work-block mx-auto">
+                <div class="how-it-work-block-inner">
+                    <div class="pb-8 text-center">
+                        <div class="line inline-block"></div>
+                        <h3 class="heading-tertiary inline-block pl-3">
+                            Quick summary of buying a house
+                        </h3>
+                        <h2 class="heading-secondary">
+                            Process of buying a house.
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero hic omnis, <br>enim
+                            corrupti porro reiciendis, neque asperiores, deleniti harum modi id vitae maiores dolor!
+                        </p>
+                    </div>
+                    <ul class="nav nav-pills how-it-works-pills" role="tablist">
+                        <li class="progress">
+                            <div></div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#step-1" role="tab"
+                                aria-selected="true">01</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#step-2" role="tab"
+                                aria-selected="false">02</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#step-3" role="tab"
+                                aria-selected="false">03</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#step-4" role="tab"
+                                aria-selected="false">04</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="step-1" class="tab-pane fade show active">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h3 class="heading-tertiary">Week 1:<br>Lorem, ipsum dolor.</h3>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto quod
+                                        architecto quia. Necessitatibus qui accusantium sunt. Nisi quisquam obcaecati
+                                        voluptatum vel autem eius error?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="step-2" class="tab-pane fade">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h3 class="heading-tertiary">Week 2:<br>Lorem, ipsum dolor.</h3>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic
+                                        officia voluptas doloribus, ducimus cumque unde dolores nisi repellendus ipsum,
+                                        consequuntur dolor adipisci ad nostrum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="step-3" class="tab-pane fade">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h3 class="heading-tertiary">Week 3:<br>Lorem, ipsum dolor.</h3>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione animi magni
+                                        nemo culpa. Totam provident nemo magni atque possimus velit delectus similique
+                                        labore fugit fuga.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="step-4" class="tab-pane fade">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h3 class="heading-tertiary">Week 4:<br>Lorem, ipsum.</h3>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta velit amet quo
+                                        unde tenetur? Quod praesentium a quas eligendi? Perferendis quibusdam nobis
+                                        fugit asperiores est.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container mx-auto flex flex-wrap">
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="public/libs/main.js"></script>
+</body>
+
+</html>
